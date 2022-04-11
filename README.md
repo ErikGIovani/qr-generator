@@ -1,5 +1,5 @@
 <div align="center">
-   <img width="30%" src="./README/logo.png" alt="#">
+   <img width="20%" src="./README/logo.png" alt="#">
    <h1>QR Generator</h1
       
    <p>Este proyecto fue desarrollado con la librería <b>QRCode.js</b> y fue creado con la finalidad de poder generar códigos QR.</p>
