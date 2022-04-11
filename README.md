@@ -22,25 +22,3 @@
    <h2>Celular</h2>
    <img width="50%" src="./README/mobile.png" alt="#">
 </div>
-
-<div align="center">
-   <h2>Instrucciones</h2>
-   <p>Para poder iniciar este proyecto primero necesitas tener instalado <b>Node JS</b> y correr el siguiente comando desde la carpeta de este proyecto en la terminal.</p>
-   
-```
-   npm install
-```
-   
-<p>Para empezar este proyecto solo hay que correr el siguiente comando en la terminal.</p>
-   
-```
-   npm start
-```
-   
-<p>Para compilar este proyecto para producción necesitas correr el siguiente comando en la terminal.</p>
-
-```
-   npm run build
-```
-   
-</div>
