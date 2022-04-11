@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+main {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1.3vw;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 3vw;
+  margin-bottom: 1vw;
+}
+div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  border: none;
+  padding: 1vw;
+  border-radius: 1.3vw;
+  font-size: 2vw;
+  margin-top: 2vw;
+  width: 70%;
+  outline: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+form button {
+  transition: 1s;
+  font-size: 2vw;
+  border-radius: 1.3vw;
+  border: 0.1vw solid transparent;
+  margin-top: 2vw;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  padding: 1vw 3vw;
+  color: white;
+}
+form button:hover {
+  transition: 1s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+form button:active {
+  transition: 1s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+@media (max-width: 700px) {
+  main {
+    width: 90%;
+    height: 90%;
+  }
+  h1 {
+    font-size: 10vw;
+    margin-bottom: 3vw;
+  }
+  form input {
+    width: 90%;
+    padding: 2vw;
+    font-size: 8vw;
+    margin-top: 9vw;
+  }
+  form button {
+    font-size: 8vw;
+    margin-top: 6vw;
+  }
+}

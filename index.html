@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/qr-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>QR Generator</title>
+  </head>
+  <body>
+    <main class="animate__animated animate__backInDown">
+      <h1>QR Generator</h1>
+      <div id="app"></div>
+
+      <form>
+        <input type="text" id="qr-input" placeholder="Insert The URL" autofocus/>
+        <button type="submit">Generate QR</button>
+      </form>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  </body>
+</html>
