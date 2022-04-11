@@ -4,7 +4,7 @@
       
    <p>Este proyecto fue desarrollado con la librería <b>QRCode.js</b> y fue creado con la finalidad de poder generar códigos QR.</p>
 
-   <a href="https://erikgiovani.github.io/cripto-search/">Ver Sitio</a>
+   <a href="https://erikgiovani.github.io/qr-generator/">Ver Sitio</a>
 </div>
 
 <div align="center">
