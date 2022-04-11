@@ -1,5 +1,5 @@
 <div align="center">
-   <img width="30%" src="./logo.png" alt="#">
+   <img width="30%" src="./README/logo.png" alt="#">
    <h1>QR Generator</h1
       
    <p>Este proyecto fue desarrollado con la librería <b>QRCode.js</b> y fue creado con la finalidad de poder generar códigos QR.</p>
@@ -15,12 +15,12 @@
 
 <div align="center">
    <h2>Escritorio</h2>
-   <img src="./desktop.png" alt="#">
+   <img src="./README/desktop.png" alt="#">
 </div>
 
 <div align="center">
    <h2>Celular</h2>
-   <img src="./desktop.png" alt="#">
+   <img src="./README/mobile.png" alt="#">
 </div>
 
 <div align="center">
