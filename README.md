@@ -20,7 +20,7 @@
 
 <div align="center">
    <h2>Celular</h2>
-   <img src="./README/mobile.png" alt="#">
+   <img width="50%" src="./README/mobile.png" alt="#">
 </div>
 
 <div align="center">
